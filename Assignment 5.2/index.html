@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors Practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>CSS Selectors Practice</h1>
+        <p>Learning different types of CSS selectors</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#courses">Courses</a>
+    </nav>
+
+    <main id="home">
+        <section id="about">
+            <h2>About CSS Selectors</h2>
+            <p>
+                CSS selectors help us select HTML elements
+                and apply styles to them.
+            </p>
+        </section>
+
+        <section id="courses">
+            <h2>Our Courses</h2>
+
+            <div class="card">
+                <h3>HTML</h3>
+                <p>Learn the structure of web pages.</p>
+            </div>
+
+            <div class="card">
+                <h3>CSS</h3>
+                <p>Learn how to style web pages.</p>
+            </div>
+
+            <div class="card">
+                <h3>JavaScript</h3>
+                <p>Learn how to make websites interactive.</p>
+            </div>
+        </section>
+
+        <section id="specific">
+            <h2>Specific Section</h2>
+            <p class="highlight">
+                This paragraph demonstrates an ID selector.
+            </p>
+        </section>
+
+        <section id="specificity-demo">
+            <h2>Cascade and Specificity</h2>
+            <p class="conflict" id="special-text">
+                Observe my text color using CSS specificity!
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 CSS Practice Website</p>
+    </footer>
+
+</body>
+</html>

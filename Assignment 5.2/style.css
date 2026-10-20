@@ -1,0 +1,106 @@
+
+/* 1. Universal selector */
+* {
+    box-sizing: border-box;
+}
+
+/* Basic page styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f5f9;
+    color: #263238;
+}
+
+/* 2. Element selector */
+h1 {
+    font-size: 32px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* 3. Grouping selector */
+h2, h3 {
+    color: #174a7e;
+}
+
+/* Header */
+header {
+    background-color: #174a7e;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* Navigation */
+nav {
+    background-color: #2369a8;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* 4. ID selector */
+#about {
+    background-color: #e1efff;
+    border-left: 5px solid #2369a8;
+}
+
+/* 5. Class selector */
+.card {
+    background-color: white;
+    padding: 18px;
+    margin: 15px 0;
+    border-radius: 8px;
+    border: 1px solid #d5deea;
+}
+
+/* Another class selector */
+.highlight {
+    background-color: #fff0b3;
+    padding: 12px;
+}
+
+/* ID-specific section */
+#specific {
+    background-color: white;
+    padding: 18px;
+    margin-top: 20px;
+}
+
+/* 6. Cascade and specificity demonstration */
+
+/* Rule 1: Element selector */
+p {
+    color: green;
+}
+
+/* Rule 2: Class selector */
+.conflict {
+    color: blue;
+}
+
+/* Rule 3: ID selector */
+#special-text {
+    color: red;
+}
+
+/* Footer */
+footer {
+    background-color: #174a7e;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 25px;
+}
